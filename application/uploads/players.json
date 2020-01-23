@@ -1,0 +1,31 @@
+{
+    "Players": [
+        {
+            "Name": "Neil",
+            "Age": 32,
+            "Location": {
+                "City": "Beijng",
+                "Province": "Beijng",
+                "Country": "CN"
+            }
+        },
+        {
+            "Name": "Sunny",
+            "Age": 31,
+            "Location": {
+                "City": "Beijng",
+                "Province": "Beijng",
+                "Country": "CN"
+            }
+        },
+        {
+            "Name": "David",
+            "Age": 39,
+            "Location": {
+                "City": "Bedford",
+                "Province": "NS",
+                "Country": "CA"
+            }
+        }
+    ]
+}
