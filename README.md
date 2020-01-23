@@ -11,7 +11,8 @@ The default model is `$PROJECT//application/models/Athletes_model.php`, this mod
 1. PHP 7.2+
 1. CodeIgniter v3.1.11(don't need to install as it's included in the source code)
 2. CodeIgniter rest-server, please install it via `composer` by following command
-`omposer require chriskacerguis/codeigniter-restserver`
+`composer require chriskacerguis/codeigniter-restserver`.
+
 And don't forget to update PHP config file `$PROJECT/application/config/config.php` set `$config['COMPOSER_AUTOLOAD'] = TRUE`
 3. (OPTIONAL) If need, you can udpate project base_url in '$PROJECT/application/config/config.php', the default configuration is `$config['base_url'] = 'http://localhost/kinduct'`
 
@@ -19,6 +20,7 @@ And don't forget to update PHP config file `$PROJECT/application/config/config.p
 ## MySQL
 MhySQL version 8.0.18+
 1. Please run below SQL to create table 'athlete' in target database.
+
 `
     CREATE TABLE `athlete` (
     `id` int(10) unsigned NOT NULL AUTO_INCREMENT,
@@ -30,6 +32,7 @@ MhySQL version 8.0.18+
     PRIMARY KEY (`id`)
     ) ENGINE=InnoDB AUTO_INCREMENT=37 DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 `
+
 2. Update DB connection parameters in `$PROJECT/application/config/database.php`, with your own database hostname, username, password and database name.
 
 ## Apache
